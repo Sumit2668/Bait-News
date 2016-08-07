@@ -2,13 +2,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaitNews.iOS", "DailyFail\BaitNews.iOS.csproj", "{E0D53868-4C48-48CB-8562-F257930012D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaitNews.iOS", "BaitNews\BaitNews.iOS\BaitNews.iOS.csproj", "{E0D53868-4C48-48CB-8562-F257930012D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile Apps", "Mobile Apps", "{4304AEFE-DB50-40A4-B536-E60BE47C3397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaitNews.Droid", "DailyFail\BaitNews.Droid\BaitNews.Droid.csproj", "{A7B9BA95-7D24-4CD8-AE80-740F1BF4B9EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaitNews.Android", "BaitNews\BaitNews.Android\BaitNews.Droid.csproj", "{A7B9BA95-7D24-4CD8-AE80-740F1BF4B9EC}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BaitNews.Shared", "DailyFail\BaitNews.Shared\BaitNews.Shared.shproj", "{A3B1BE15-AFB5-4769-8BF1-22541EE678D4}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BaitNews.Shared", "BaitNews\BaitNews.Shared\BaitNews.Shared.shproj", "{A3B1BE15-AFB5-4769-8BF1-22541EE678D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
