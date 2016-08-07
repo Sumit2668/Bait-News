@@ -37,6 +37,8 @@ TestResult.xml
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
+[Cc]omponents/
+[Dd]ependencies/
 dlldata.c
 
 # DNX
