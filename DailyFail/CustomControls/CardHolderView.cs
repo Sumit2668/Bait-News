@@ -3,11 +3,9 @@
 using CoreGraphics;
 using UIKit;
 
-using BaitNews.Models;
-using System;
 using System.Linq;
 
-namespace BaitNews.CustomControls
+namespace BaitNews.iOS
 {
     public class CardHolderView : UIView
     {

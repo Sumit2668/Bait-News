@@ -3,7 +3,7 @@ using System;
 using UIKit;
 using System.Linq;
 
-namespace BaitNews
+namespace BaitNews.iOS
 {
     public partial class StartViewController : UIViewController
     {

@@ -2,45 +2,29 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using BaitNews.Models;
-using BaitNews.CustomControls;
-
 using Foundation;
 using SafariServices;
 using UIKit;
 
 using MikeCodesDotNET.iOS;
 using NotificationHub;
-using BaitNews;
-using Awesomizer;
 using AppServiceHelpers;
 
-namespace BaitNews
+namespace BaitNews.iOS
 {
-    public partial class SwipeGameViewController : UIViewController
+	public partial class SwipeGameViewController : UIViewController
     {
-        //CardView HeadLineCardView { get; set; }
+		SwipeGameViewModel ViewModel { get; }
         Notifier incorrectHub;
         Notifier correctHub;
-        List<Answer> answers;
         CardHolderView cardHolder;
 
-        ConnectedObservableCollection<Headline> headlines; 
-
+        
         const string segueIdentifier = "RESULTS_SEGUE_IDENTIFIER";
 
         public SwipeGameViewController(IntPtr handle) : base(handle)
         {
-            //Create our App Service Easy Client 
-            var client = new EasyMobileServiceClient();
-            client.Initialize(Helpers.Keys.AzureServiceUrl);
-
-            //Register our objects
-            client.RegisterTable<Headline>();
-            client.FinalizeSchema();
-
-            headlines = new ConnectedObservableCollection<Headline>(client.Table<Headline>());
-            answers = new List<Answer>();
+			ViewModel = new SwipeGameViewModel();
         }
 
         async public override void ViewDidLoad()
@@ -62,13 +46,12 @@ namespace BaitNews
             btnCorrect.Alpha = 0;
             btnIncorrect.Alpha = 0;
 
-            await headlines.Refresh();
-            headlines.Shuffle();
+			await ViewModel.LoadHeadlines();
 
             if (await Plugin.Connectivity.CrossConnectivity.Current.IsReachable("google.com"))
                 btnRead.Alpha = 1.0f;
 
-            cardHolder = new CardHolderView(cardPlaceholder.Frame, headlines.ToList());
+			cardHolder = new CardHolderView(cardPlaceholder.Frame, ViewModel.Headlines.ToList());
             cardHolder.DidSwipeLeft += OnSwipeLeft;
             cardHolder.DidSwipeRight += OnSwipeRight;
             cardHolder.NoMoreCards += FinishGame;
@@ -94,19 +77,13 @@ namespace BaitNews
                 if (vc == null)
                     return;
 
-                vc.Answers = answers;
+				vc.ViewModel = new ResultsViewModel(ViewModel.Answers);
             }
         }
 
         async partial void BtnRead_TouchUpInside(UIButton sender)
         {
-            var headline = cardHolder.VisibleHeadline;
-            if (headline != null)
-            {
-                var safari = new SFSafariViewController(new NSUrl(headline.Url), true);
-                safari.View.TintColor = btnFinish.BackgroundColor;
-                await PresentViewControllerAsync(safari, true);
-            }
+			await ViewModel.ReadHeadline(cardHolder.VisibleHeadline);
         }
 
         partial void BtnFinish_TouchUpInside(UIButton sender)
@@ -141,7 +118,7 @@ namespace BaitNews
                 correctHub.Increment(1, NotificationAnimationType.Pop);
                 answer.CorrectAnswer = true;
             }
-            answers.Add(answer);
+			ViewModel.Answers.Add(answer);
         }
 
         void OnSwipeRight(HeadlineView sender)
@@ -171,7 +148,7 @@ namespace BaitNews
                 incorrectHub.Increment(1, NotificationAnimationType.Pop);
                 answer.CorrectAnswer = false;
             }
-            answers.Add(answer);
+			ViewModel.Answers.Add(answer);
 
         }
         void FinishGame()

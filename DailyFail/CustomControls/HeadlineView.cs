@@ -2,9 +2,8 @@
 using UIKit;
 using CoreGraphics;
 using Foundation;
-using BaitNews.Models;
 
-namespace BaitNews.CustomControls
+namespace BaitNews.iOS
 {
 	public class HeadlineView : DraggableView
 	{

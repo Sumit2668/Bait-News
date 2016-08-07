@@ -1,7 +1,7 @@
 ﻿using System;
 using AppServiceHelpers.Models;
 
-namespace BaitNews.Models
+namespace BaitNews
 {
     public class Headline : EntityData
     {

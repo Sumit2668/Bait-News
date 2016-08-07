@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace BaitNews
+namespace BaitNews.iOS
 {
     [Register ("ResultsViewController")]
     partial class ResultsViewController

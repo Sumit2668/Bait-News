@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace BaitNews
+namespace BaitNews.iOS
 {
 	public class Application
 	{

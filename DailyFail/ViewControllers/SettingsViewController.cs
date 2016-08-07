@@ -1,24 +1,20 @@
-using Foundation;
 using System;
 using UIKit;
 
-namespace BaitNews
+namespace BaitNews.iOS
 {
-    public partial class SettingsViewController : UITableViewController
+	public partial class SettingsViewController : UITableViewController
     {
+		SettingsViewModel viewModel;
         public SettingsViewController (IntPtr handle) : base (handle)
         {
+			viewModel = new SettingsViewModel();
         }
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
-            var versionNumber = NSBundle.MainBundle.ObjectForInfoDictionary("CFBundleShortVersionString").ToString();
-            var buildNumber = NSBundle.MainBundle.ObjectForInfoDictionary("CFBundleVersion").ToString();
-
-
-            lblBuildVersion.Text = $"Version {versionNumber} build {buildNumber}";
+			lblBuildVersion.Text = $"Version {viewModel.VersionNumber} build {viewModel.BuildNumber}";
         }
     }
 }

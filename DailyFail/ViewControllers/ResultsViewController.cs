@@ -1,20 +1,16 @@
-using Foundation;
 using System;
 using UIKit;
-using System.Collections.Generic;
-using BaitNews.Models;
-using System.Linq;
 using MikeCodesDotNET.iOS;
 
-namespace BaitNews
+namespace BaitNews.iOS
 {
-    public partial class ResultsViewController : UIViewController
+	public partial class ResultsViewController : UIViewController
     {
-        public List<Answer> Answers;
+		public ResultsViewModel ViewModel { get; set; }
 
         public ResultsViewController (IntPtr handle) : base (handle)
         {
-            Answers = new List<Answer>();
+			
         }
 
         public override void ViewDidLoad()
@@ -26,11 +22,8 @@ namespace BaitNews
             imgTick.Alpha = 0;
             imgCross.Alpha = 0;
 
-            var wrongCount = Answers.Where(x => x.CorrectAnswer == false).Count();
-            var correctCount = Answers.Where(x => x.CorrectAnswer).Count();
-
-            lblWrong.Text = $"{wrongCount} Wrong";
-            lblCorrect.Text = $"{correctCount} Correct";
+			lblWrong.Text = $"{ViewModel.WrongCount} Wrong";
+			lblCorrect.Text = $"{ViewModel.CorrectCount} Correct";
         }
 
         public override void ViewDidAppear(bool animated)

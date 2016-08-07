@@ -1,7 +1,7 @@
 ﻿using System;
 
 //Credit to Jon Davis
-namespace BaitNews.CustomControls
+namespace BaitNews.iOS
 {
     public class DraggableEventArgs : EventArgs
     {

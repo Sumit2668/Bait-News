@@ -4,7 +4,7 @@ using CoreGraphics;
 using Foundation;
 
 //Credit to Jon Davis
-namespace BaitNews.CustomControls
+namespace BaitNews.iOS
 {
     [Register("DraggableView")]
     public class DraggableView : UIView

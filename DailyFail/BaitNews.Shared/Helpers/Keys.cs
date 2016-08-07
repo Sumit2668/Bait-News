@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BaitNews.Helpers
+namespace BaitNews
 {
     public class Keys
     {
