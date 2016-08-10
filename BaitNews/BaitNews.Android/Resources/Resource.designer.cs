@@ -26,6 +26,126 @@ namespace BaitNews.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::HockeyApp.Resource.Color.hockeyapp_background_header = global::BaitNews.Droid.Resource.Color.hockeyapp_background_header;
+			global::HockeyApp.Resource.Color.hockeyapp_background_light = global::BaitNews.Droid.Resource.Color.hockeyapp_background_light;
+			global::HockeyApp.Resource.Color.hockeyapp_background_white = global::BaitNews.Droid.Resource.Color.hockeyapp_background_white;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background = global::BaitNews.Droid.Resource.Color.hockeyapp_button_background;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_pressed = global::BaitNews.Droid.Resource.Color.hockeyapp_button_background_pressed;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_selected = global::BaitNews.Droid.Resource.Color.hockeyapp_button_background_selected;
+			global::HockeyApp.Resource.Color.hockeyapp_text_black = global::BaitNews.Droid.Resource.Color.hockeyapp_text_black;
+			global::HockeyApp.Resource.Color.hockeyapp_text_light = global::BaitNews.Droid.Resource.Color.hockeyapp_text_light;
+			global::HockeyApp.Resource.Color.hockeyapp_text_normal = global::BaitNews.Droid.Resource.Color.hockeyapp_text_normal;
+			global::HockeyApp.Resource.Color.hockeyapp_text_white = global::BaitNews.Droid.Resource.Color.hockeyapp_text_white;
+			global::HockeyApp.Resource.Drawable.hockeyapp_btn_background = global::BaitNews.Droid.Resource.Drawable.hockeyapp_btn_background;
+			global::HockeyApp.Resource.Id.button_add_response = global::BaitNews.Droid.Resource.Id.button_add_response;
+			global::HockeyApp.Resource.Id.button_attachment = global::BaitNews.Droid.Resource.Id.button_attachment;
+			global::HockeyApp.Resource.Id.button_login = global::BaitNews.Droid.Resource.Id.button_login;
+			global::HockeyApp.Resource.Id.button_refresh = global::BaitNews.Droid.Resource.Id.button_refresh;
+			global::HockeyApp.Resource.Id.button_send = global::BaitNews.Droid.Resource.Id.button_send;
+			global::HockeyApp.Resource.Id.button_update = global::BaitNews.Droid.Resource.Id.button_update;
+			global::HockeyApp.Resource.Id.input_email = global::BaitNews.Droid.Resource.Id.input_email;
+			global::HockeyApp.Resource.Id.input_message = global::BaitNews.Droid.Resource.Id.input_message;
+			global::HockeyApp.Resource.Id.input_name = global::BaitNews.Droid.Resource.Id.input_name;
+			global::HockeyApp.Resource.Id.input_password = global::BaitNews.Droid.Resource.Id.input_password;
+			global::HockeyApp.Resource.Id.input_subject = global::BaitNews.Droid.Resource.Id.input_subject;
+			global::HockeyApp.Resource.Id.label_author = global::BaitNews.Droid.Resource.Id.label_author;
+			global::HockeyApp.Resource.Id.label_date = global::BaitNews.Droid.Resource.Id.label_date;
+			global::HockeyApp.Resource.Id.label_last_updated = global::BaitNews.Droid.Resource.Id.label_last_updated;
+			global::HockeyApp.Resource.Id.label_message = global::BaitNews.Droid.Resource.Id.label_message;
+			global::HockeyApp.Resource.Id.label_text = global::BaitNews.Droid.Resource.Id.label_text;
+			global::HockeyApp.Resource.Id.label_title = global::BaitNews.Droid.Resource.Id.label_title;
+			global::HockeyApp.Resource.Id.label_version = global::BaitNews.Droid.Resource.Id.label_version;
+			global::HockeyApp.Resource.Id.list_attachments = global::BaitNews.Droid.Resource.Id.list_attachments;
+			global::HockeyApp.Resource.Id.list_feedback_messages = global::BaitNews.Droid.Resource.Id.list_feedback_messages;
+			global::HockeyApp.Resource.Id.text_headline = global::BaitNews.Droid.Resource.Id.text_headline;
+			global::HockeyApp.Resource.Id.view_header = global::BaitNews.Droid.Resource.Id.view_header;
+			global::HockeyApp.Resource.Id.web_update_details = global::BaitNews.Droid.Resource.Id.web_update_details;
+			global::HockeyApp.Resource.Id.wrapper_attachments = global::BaitNews.Droid.Resource.Id.wrapper_attachments;
+			global::HockeyApp.Resource.Id.wrapper_feedback = global::BaitNews.Droid.Resource.Id.wrapper_feedback;
+			global::HockeyApp.Resource.Id.wrapper_feedback_scroll = global::BaitNews.Droid.Resource.Id.wrapper_feedback_scroll;
+			global::HockeyApp.Resource.Id.wrapper_messages = global::BaitNews.Droid.Resource.Id.wrapper_messages;
+			global::HockeyApp.Resource.Id.wrapper_messages_buttons = global::BaitNews.Droid.Resource.Id.wrapper_messages_buttons;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_expiry_info = global::BaitNews.Droid.Resource.Layout.hockeyapp_activity_expiry_info;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_feedback = global::BaitNews.Droid.Resource.Layout.hockeyapp_activity_feedback;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_login = global::BaitNews.Droid.Resource.Layout.hockeyapp_activity_login;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_update = global::BaitNews.Droid.Resource.Layout.hockeyapp_activity_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_fragment_update = global::BaitNews.Droid.Resource.Layout.hockeyapp_fragment_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_view_feedback_message = global::BaitNews.Droid.Resource.Layout.hockeyapp_view_feedback_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_app_name_fallback = global::BaitNews.Droid.Resource.String.hockeyapp_crash_dialog_app_name_fallback;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_message = global::BaitNews.Droid.Resource.String.hockeyapp_crash_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_negative_button = global::BaitNews.Droid.Resource.String.hockeyapp_crash_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_neutral_button = global::BaitNews.Droid.Resource.String.hockeyapp_crash_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_positive_button = global::BaitNews.Droid.Resource.String.hockeyapp_crash_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_title = global::BaitNews.Droid.Resource.String.hockeyapp_crash_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_message = global::BaitNews.Droid.Resource.String.hockeyapp_dialog_error_message;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_title = global::BaitNews.Droid.Resource.String.hockeyapp_dialog_error_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_negative_button = global::BaitNews.Droid.Resource.String.hockeyapp_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_positive_button = global::BaitNews.Droid.Resource.String.hockeyapp_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_message = global::BaitNews.Droid.Resource.String.hockeyapp_download_failed_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_negative_button = global::BaitNews.Droid.Resource.String.hockeyapp_download_failed_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_positive_button = global::BaitNews.Droid.Resource.String.hockeyapp_download_failed_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_title = global::BaitNews.Droid.Resource.String.hockeyapp_download_failed_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_error_no_network_message = global::BaitNews.Droid.Resource.String.hockeyapp_error_no_network_message;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_text = global::BaitNews.Droid.Resource.String.hockeyapp_expiry_info_text;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_title = global::BaitNews.Droid.Resource.String.hockeyapp_expiry_info_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_file = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_attach_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_picture = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_attach_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_button_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_attachment_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_attachment_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_loading = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_attachment_loading;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_email_hint = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_failed_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_title = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_failed_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_fetching_feedback_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_fetching_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_generic_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_last_updated_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_last_updated_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_max_attachments_allowed = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_max_attachments_allowed;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_message_hint = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_message_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_name_hint = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_name_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_refresh_button_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_refresh_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_response_button_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_response_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_file = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_select_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_picture = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_select_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_button_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_send_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_generic_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_send_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_network_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_send_network_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_sending_feedback_text = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_sending_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_subject_hint = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_subject_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_title = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_empty = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_validate_email_empty;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_validate_email_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_name_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_validate_name_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_subject_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_validate_subject_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_text_error = global::BaitNews.Droid.Resource.String.hockeyapp_feedback_validate_text_error;
+			global::HockeyApp.Resource.String.hockeyapp_login_email_hint = global::BaitNews.Droid.Resource.String.hockeyapp_login_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text = global::BaitNews.Droid.Resource.String.hockeyapp_login_headline_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text_email_only = global::BaitNews.Droid.Resource.String.hockeyapp_login_headline_text_email_only;
+			global::HockeyApp.Resource.String.hockeyapp_login_login_button_text = global::BaitNews.Droid.Resource.String.hockeyapp_login_login_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_missing_credentials_toast = global::BaitNews.Droid.Resource.String.hockeyapp_login_missing_credentials_toast;
+			global::HockeyApp.Resource.String.hockeyapp_login_password_hint = global::BaitNews.Droid.Resource.String.hockeyapp_login_password_hint;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_message = global::BaitNews.Droid.Resource.String.hockeyapp_paint_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_negative_button = global::BaitNews.Droid.Resource.String.hockeyapp_paint_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_neutral_button = global::BaitNews.Droid.Resource.String.hockeyapp_paint_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_positive_button = global::BaitNews.Droid.Resource.String.hockeyapp_paint_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_indicator_toast = global::BaitNews.Droid.Resource.String.hockeyapp_paint_indicator_toast;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_clear = global::BaitNews.Droid.Resource.String.hockeyapp_paint_menu_clear;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_save = global::BaitNews.Droid.Resource.String.hockeyapp_paint_menu_save;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_undo = global::BaitNews.Droid.Resource.String.hockeyapp_paint_menu_undo;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_negative_button = global::BaitNews.Droid.Resource.String.hockeyapp_permission_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_positive_button = global::BaitNews.Droid.Resource.String.hockeyapp_permission_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_message = global::BaitNews.Droid.Resource.String.hockeyapp_permission_update_message;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_title = global::BaitNews.Droid.Resource.String.hockeyapp_permission_update_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_button = global::BaitNews.Droid.Resource.String.hockeyapp_update_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_message = global::BaitNews.Droid.Resource.String.hockeyapp_update_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_negative_button = global::BaitNews.Droid.Resource.String.hockeyapp_update_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_positive_button = global::BaitNews.Droid.Resource.String.hockeyapp_update_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_title = global::BaitNews.Droid.Resource.String.hockeyapp_update_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_mandatory_toast = global::BaitNews.Droid.Resource.String.hockeyapp_update_mandatory_toast;
+			global::HockeyApp.Resource.String.hockeyapp_update_version_details_label = global::BaitNews.Droid.Resource.String.hockeyapp_update_version_details_label;
+			global::HockeyApp.Resource.String.library_name = global::BaitNews.Droid.Resource.String.library_name;
+			global::HockeyApp.Resource.Style.HockeyApp_ButtonStyle = global::BaitNews.Droid.Resource.Style.HockeyApp_ButtonStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_EditTextStyle = global::BaitNews.Droid.Resource.Style.HockeyApp_EditTextStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_SingleLineInputStyle = global::BaitNews.Droid.Resource.Style.HockeyApp_SingleLineInputStyle;
 		}
 		
 		public partial class Animation
@@ -787,32 +907,32 @@ namespace BaitNews.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f070047
-			public const int abc_background_cache_hint_selector_material_dark = 2131165255;
+			// aapt resource value: 0x7f070051
+			public const int abc_background_cache_hint_selector_material_dark = 2131165265;
 			
-			// aapt resource value: 0x7f070048
-			public const int abc_background_cache_hint_selector_material_light = 2131165256;
+			// aapt resource value: 0x7f070052
+			public const int abc_background_cache_hint_selector_material_light = 2131165266;
 			
-			// aapt resource value: 0x7f070049
-			public const int abc_color_highlight_material = 2131165257;
+			// aapt resource value: 0x7f070053
+			public const int abc_color_highlight_material = 2131165267;
 			
 			// aapt resource value: 0x7f070004
 			public const int abc_input_method_navigation_guard = 2131165188;
 			
-			// aapt resource value: 0x7f07004a
-			public const int abc_primary_text_disable_only_material_dark = 2131165258;
+			// aapt resource value: 0x7f070054
+			public const int abc_primary_text_disable_only_material_dark = 2131165268;
 			
-			// aapt resource value: 0x7f07004b
-			public const int abc_primary_text_disable_only_material_light = 2131165259;
+			// aapt resource value: 0x7f070055
+			public const int abc_primary_text_disable_only_material_light = 2131165269;
 			
-			// aapt resource value: 0x7f07004c
-			public const int abc_primary_text_material_dark = 2131165260;
+			// aapt resource value: 0x7f070056
+			public const int abc_primary_text_material_dark = 2131165270;
 			
-			// aapt resource value: 0x7f07004d
-			public const int abc_primary_text_material_light = 2131165261;
+			// aapt resource value: 0x7f070057
+			public const int abc_primary_text_material_light = 2131165271;
 			
-			// aapt resource value: 0x7f07004e
-			public const int abc_search_url_text = 2131165262;
+			// aapt resource value: 0x7f070058
+			public const int abc_search_url_text = 2131165272;
 			
 			// aapt resource value: 0x7f070005
 			public const int abc_search_url_text_normal = 2131165189;
@@ -823,14 +943,14 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f070007
 			public const int abc_search_url_text_selected = 2131165191;
 			
-			// aapt resource value: 0x7f07004f
-			public const int abc_secondary_text_material_dark = 2131165263;
+			// aapt resource value: 0x7f070059
+			public const int abc_secondary_text_material_dark = 2131165273;
 			
-			// aapt resource value: 0x7f070050
-			public const int abc_secondary_text_material_light = 2131165264;
+			// aapt resource value: 0x7f07005a
+			public const int abc_secondary_text_material_light = 2131165274;
 			
-			// aapt resource value: 0x7f070040
-			public const int accent = 2131165248;
+			// aapt resource value: 0x7f07004a
+			public const int accent = 2131165258;
 			
 			// aapt resource value: 0x7f070008
 			public const int accent_material_dark = 2131165192;
@@ -838,8 +958,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f070009
 			public const int accent_material_light = 2131165193;
 			
-			// aapt resource value: 0x7f070046
-			public const int activated_color = 2131165254;
+			// aapt resource value: 0x7f070050
+			public const int activated_color = 2131165264;
 			
 			// aapt resource value: 0x7f07000a
 			public const int background_floating_material_dark = 2131165194;
@@ -901,8 +1021,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f070019
 			public const int dim_foreground_material_light = 2131165209;
 			
-			// aapt resource value: 0x7f070045
-			public const int divider = 2131165253;
+			// aapt resource value: 0x7f07004f
+			public const int divider = 2131165263;
 			
 			// aapt resource value: 0x7f07001a
 			public const int foreground_material_dark = 2131165210;
@@ -922,8 +1042,38 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f07001f
 			public const int hint_foreground_material_light = 2131165215;
 			
+			// aapt resource value: 0x7f07003e
+			public const int hockeyapp_background_header = 2131165246;
+			
+			// aapt resource value: 0x7f07003f
+			public const int hockeyapp_background_light = 2131165247;
+			
+			// aapt resource value: 0x7f070040
+			public const int hockeyapp_background_white = 2131165248;
+			
 			// aapt resource value: 0x7f070041
-			public const int lightPrimary = 2131165249;
+			public const int hockeyapp_button_background = 2131165249;
+			
+			// aapt resource value: 0x7f070042
+			public const int hockeyapp_button_background_pressed = 2131165250;
+			
+			// aapt resource value: 0x7f070043
+			public const int hockeyapp_button_background_selected = 2131165251;
+			
+			// aapt resource value: 0x7f070044
+			public const int hockeyapp_text_black = 2131165252;
+			
+			// aapt resource value: 0x7f070045
+			public const int hockeyapp_text_light = 2131165253;
+			
+			// aapt resource value: 0x7f070046
+			public const int hockeyapp_text_normal = 2131165254;
+			
+			// aapt resource value: 0x7f070047
+			public const int hockeyapp_text_white = 2131165255;
+			
+			// aapt resource value: 0x7f07004b
+			public const int lightPrimary = 2131165259;
 			
 			// aapt resource value: 0x7f070020
 			public const int material_blue_grey_800 = 2131165216;
@@ -961,14 +1111,14 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f07002b
 			public const int material_grey_900 = 2131165227;
 			
-			// aapt resource value: 0x7f07003e
-			public const int primary = 2131165246;
+			// aapt resource value: 0x7f070048
+			public const int primary = 2131165256;
 			
-			// aapt resource value: 0x7f07003f
-			public const int primaryDark = 2131165247;
+			// aapt resource value: 0x7f070049
+			public const int primaryDark = 2131165257;
 			
-			// aapt resource value: 0x7f070043
-			public const int primaryText = 2131165251;
+			// aapt resource value: 0x7f07004d
+			public const int primaryText = 2131165261;
 			
 			// aapt resource value: 0x7f07002c
 			public const int primary_dark_material_dark = 2131165228;
@@ -1000,8 +1150,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f070035
 			public const int ripple_material_light = 2131165237;
 			
-			// aapt resource value: 0x7f070044
-			public const int secondaryText = 2131165252;
+			// aapt resource value: 0x7f07004e
+			public const int secondaryText = 2131165262;
 			
 			// aapt resource value: 0x7f070036
 			public const int secondary_text_default_material_dark = 2131165238;
@@ -1021,11 +1171,11 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f07003b
 			public const int switch_thumb_disabled_material_light = 2131165243;
 			
-			// aapt resource value: 0x7f070051
-			public const int switch_thumb_material_dark = 2131165265;
+			// aapt resource value: 0x7f07005b
+			public const int switch_thumb_material_dark = 2131165275;
 			
-			// aapt resource value: 0x7f070052
-			public const int switch_thumb_material_light = 2131165266;
+			// aapt resource value: 0x7f07005c
+			public const int switch_thumb_material_light = 2131165276;
 			
 			// aapt resource value: 0x7f07003c
 			public const int switch_thumb_normal_material_dark = 2131165244;
@@ -1033,8 +1183,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f07003d
 			public const int switch_thumb_normal_material_light = 2131165245;
 			
-			// aapt resource value: 0x7f070042
-			public const int textIcon = 2131165250;
+			// aapt resource value: 0x7f07004c
+			public const int textIcon = 2131165260;
 			
 			static Color()
 			{
@@ -1522,10 +1672,13 @@ namespace BaitNews.Droid
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int ic_launcher = 2130837579;
+			public const int hockeyapp_btn_background = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int notification_template_icon_bg = 2130837580;
+			public const int ic_launcher = 2130837580;
+			
+			// aapt resource value: 0x7f02004d
+			public const int notification_template_icon_bg = 2130837581;
 			
 			static Drawable()
 			{
@@ -1540,8 +1693,8 @@ namespace BaitNews.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c0054
-			public const int action0 = 2131492948;
+			// aapt resource value: 0x7f0c0070
+			public const int action0 = 2131492976;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int action_bar = 2131492929;
@@ -1567,8 +1720,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c0042
 			public const int action_context_bar = 2131492930;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int action_divider = 2131492952;
+			// aapt resource value: 0x7f0c0074
+			public const int action_divider = 2131492980;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -1600,23 +1753,41 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c002b
 			public const int buttonPanel = 2131492907;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int cancel_action = 2131492949;
+			// aapt resource value: 0x7f0c005d
+			public const int button_add_response = 2131492957;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int button_attachment = 2131492952;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int button_login = 2131492962;
+			
+			// aapt resource value: 0x7f0c005e
+			public const int button_refresh = 2131492958;
+			
+			// aapt resource value: 0x7f0c0059
+			public const int button_send = 2131492953;
+			
+			// aapt resource value: 0x7f0c0066
+			public const int button_update = 2131492966;
+			
+			// aapt resource value: 0x7f0c0071
+			public const int cancel_action = 2131492977;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int checkbox = 2131492921;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int chronometer = 2131492955;
+			// aapt resource value: 0x7f0c0077
+			public const int chronometer = 2131492983;
 			
 			// aapt resource value: 0x7f0c001d
 			public const int collapseActionView = 2131492893;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int container = 2131492947;
+			// aapt resource value: 0x7f0c006f
+			public const int container = 2131492975;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int content = 2131492944;
+			// aapt resource value: 0x7f0c006c
+			public const int content = 2131492972;
 			
 			// aapt resource value: 0x7f0c0031
 			public const int contentPanel = 2131492913;
@@ -1642,8 +1813,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c001a
 			public const int end = 2131492890;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int end_padder = 2131492960;
+			// aapt resource value: 0x7f0c007c
+			public const int end_padder = 2131492988;
 			
 			// aapt resource value: 0x7f0c0025
 			public const int expand_activities_button = 2131492901;
@@ -1666,26 +1837,68 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c0026
 			public const int image = 2131492902;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int info = 2131492959;
+			// aapt resource value: 0x7f0c007b
+			public const int info = 2131492987;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int line1 = 2131492953;
+			// aapt resource value: 0x7f0c0054
+			public const int input_email = 2131492948;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int line3 = 2131492957;
+			// aapt resource value: 0x7f0c0056
+			public const int input_message = 2131492950;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int input_name = 2131492947;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int input_password = 2131492961;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int input_subject = 2131492949;
+			
+			// aapt resource value: 0x7f0c0068
+			public const int label_author = 2131492968;
+			
+			// aapt resource value: 0x7f0c0069
+			public const int label_date = 2131492969;
+			
+			// aapt resource value: 0x7f0c005b
+			public const int label_last_updated = 2131492955;
+			
+			// aapt resource value: 0x7f0c0050
+			public const int label_message = 2131492944;
+			
+			// aapt resource value: 0x7f0c006a
+			public const int label_text = 2131492970;
+			
+			// aapt resource value: 0x7f0c0064
+			public const int label_title = 2131492964;
+			
+			// aapt resource value: 0x7f0c0065
+			public const int label_version = 2131492965;
+			
+			// aapt resource value: 0x7f0c0075
+			public const int line1 = 2131492981;
+			
+			// aapt resource value: 0x7f0c0079
+			public const int line3 = 2131492985;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int listMode = 2131492873;
 			
+			// aapt resource value: 0x7f0c006b
+			public const int list_attachments = 2131492971;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int list_feedback_messages = 2131492959;
+			
 			// aapt resource value: 0x7f0c0028
 			public const int list_item = 2131492904;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int main_content = 2131492946;
+			// aapt resource value: 0x7f0c006e
+			public const int main_content = 2131492974;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int media_actions = 2131492951;
+			// aapt resource value: 0x7f0c0073
+			public const int media_actions = 2131492979;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int middle = 2131492891;
@@ -1786,8 +1999,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c0018
 			public const int src_over = 2131492888;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int status_bar_latest_event_content = 2131492950;
+			// aapt resource value: 0x7f0c0072
+			public const int status_bar_latest_event_content = 2131492978;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int submit_area = 2131492940;
@@ -1795,17 +2008,20 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c000b
 			public const int tabMode = 2131492875;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int text = 2131492958;
+			// aapt resource value: 0x7f0c007a
+			public const int text = 2131492986;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int text2 = 2131492956;
+			// aapt resource value: 0x7f0c0078
+			public const int text2 = 2131492984;
 			
 			// aapt resource value: 0x7f0c0034
 			public const int textSpacerNoButtons = 2131492916;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int time = 2131492954;
+			// aapt resource value: 0x7f0c0060
+			public const int text_headline = 2131492960;
+			
+			// aapt resource value: 0x7f0c0076
+			public const int time = 2131492982;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int title = 2131492906;
@@ -1813,8 +2029,8 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c002f
 			public const int title_template = 2131492911;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int toolbar = 2131492945;
+			// aapt resource value: 0x7f0c006d
+			public const int toolbar = 2131492973;
 			
 			// aapt resource value: 0x7f0c002e
 			public const int topPanel = 2131492910;
@@ -1825,11 +2041,32 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f0c0012
 			public const int useLogo = 2131492882;
 			
+			// aapt resource value: 0x7f0c0063
+			public const int view_header = 2131492963;
+			
+			// aapt resource value: 0x7f0c0067
+			public const int web_update_details = 2131492967;
+			
 			// aapt resource value: 0x7f0c0020
 			public const int withText = 2131492896;
 			
 			// aapt resource value: 0x7f0c0013
 			public const int wrap_content = 2131492883;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int wrapper_attachments = 2131492951;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int wrapper_feedback = 2131492946;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int wrapper_feedback_scroll = 2131492945;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int wrapper_messages = 2131492954;
+			
+			// aapt resource value: 0x7f0c005c
+			public const int wrapper_messages_buttons = 2131492956;
 			
 			static Id()
 			{
@@ -1948,49 +2185,67 @@ namespace BaitNews.Droid
 			public const int abc_select_dialog_material = 2130968600;
 			
 			// aapt resource value: 0x7f040019
-			public const int item_card = 2130968601;
+			public const int hockeyapp_activity_expiry_info = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int main = 2130968602;
+			public const int hockeyapp_activity_feedback = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int notification_media_action = 2130968603;
+			public const int hockeyapp_activity_login = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int notification_media_cancel_action = 2130968604;
+			public const int hockeyapp_activity_update = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int notification_template_big_media = 2130968605;
+			public const int hockeyapp_fragment_update = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int notification_template_big_media_narrow = 2130968606;
+			public const int hockeyapp_view_feedback_message = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int notification_template_lines = 2130968607;
+			public const int item_card = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int notification_template_media = 2130968608;
+			public const int main = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int notification_template_part_chronometer = 2130968609;
+			public const int notification_media_action = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int notification_template_part_time = 2130968610;
+			public const int notification_media_cancel_action = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int select_dialog_item_material = 2130968611;
+			public const int notification_template_big_media = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int select_dialog_multichoice_material = 2130968612;
+			public const int notification_template_big_media_narrow = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int select_dialog_singlechoice_material = 2130968613;
+			public const int notification_template_lines = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int support_simple_spinner_dropdown_item = 2130968614;
+			public const int notification_template_media = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int toolbar = 2130968615;
+			public const int notification_template_part_chronometer = 2130968615;
+			
+			// aapt resource value: 0x7f040028
+			public const int notification_template_part_time = 2130968616;
+			
+			// aapt resource value: 0x7f040029
+			public const int select_dialog_item_material = 2130968617;
+			
+			// aapt resource value: 0x7f04002a
+			public const int select_dialog_multichoice_material = 2130968618;
+			
+			// aapt resource value: 0x7f04002b
+			public const int select_dialog_singlechoice_material = 2130968619;
+			
+			// aapt resource value: 0x7f04002c
+			public const int support_simple_spinner_dropdown_item = 2130968620;
+			
+			// aapt resource value: 0x7f04002d
+			public const int toolbar = 2130968621;
 			
 			static Layout()
 			{
@@ -2081,8 +2336,224 @@ namespace BaitNews.Droid
 			// aapt resource value: 0x7f090014
 			public const int app_name = 2131296276;
 			
+			// aapt resource value: 0x7f09005d
+			public const int hello = 2131296349;
+			
 			// aapt resource value: 0x7f090015
-			public const int hello = 2131296277;
+			public const int hockeyapp_crash_dialog_app_name_fallback = 2131296277;
+			
+			// aapt resource value: 0x7f090016
+			public const int hockeyapp_crash_dialog_message = 2131296278;
+			
+			// aapt resource value: 0x7f090017
+			public const int hockeyapp_crash_dialog_negative_button = 2131296279;
+			
+			// aapt resource value: 0x7f090018
+			public const int hockeyapp_crash_dialog_neutral_button = 2131296280;
+			
+			// aapt resource value: 0x7f090019
+			public const int hockeyapp_crash_dialog_positive_button = 2131296281;
+			
+			// aapt resource value: 0x7f09001a
+			public const int hockeyapp_crash_dialog_title = 2131296282;
+			
+			// aapt resource value: 0x7f09001b
+			public const int hockeyapp_dialog_error_message = 2131296283;
+			
+			// aapt resource value: 0x7f09001c
+			public const int hockeyapp_dialog_error_title = 2131296284;
+			
+			// aapt resource value: 0x7f09001d
+			public const int hockeyapp_dialog_negative_button = 2131296285;
+			
+			// aapt resource value: 0x7f09001e
+			public const int hockeyapp_dialog_positive_button = 2131296286;
+			
+			// aapt resource value: 0x7f09001f
+			public const int hockeyapp_download_failed_dialog_message = 2131296287;
+			
+			// aapt resource value: 0x7f090020
+			public const int hockeyapp_download_failed_dialog_negative_button = 2131296288;
+			
+			// aapt resource value: 0x7f090021
+			public const int hockeyapp_download_failed_dialog_positive_button = 2131296289;
+			
+			// aapt resource value: 0x7f090022
+			public const int hockeyapp_download_failed_dialog_title = 2131296290;
+			
+			// aapt resource value: 0x7f090023
+			public const int hockeyapp_error_no_network_message = 2131296291;
+			
+			// aapt resource value: 0x7f090024
+			public const int hockeyapp_expiry_info_text = 2131296292;
+			
+			// aapt resource value: 0x7f090025
+			public const int hockeyapp_expiry_info_title = 2131296293;
+			
+			// aapt resource value: 0x7f090026
+			public const int hockeyapp_feedback_attach_file = 2131296294;
+			
+			// aapt resource value: 0x7f090027
+			public const int hockeyapp_feedback_attach_picture = 2131296295;
+			
+			// aapt resource value: 0x7f090028
+			public const int hockeyapp_feedback_attachment_button_text = 2131296296;
+			
+			// aapt resource value: 0x7f090029
+			public const int hockeyapp_feedback_attachment_error = 2131296297;
+			
+			// aapt resource value: 0x7f09002a
+			public const int hockeyapp_feedback_attachment_loading = 2131296298;
+			
+			// aapt resource value: 0x7f09002b
+			public const int hockeyapp_feedback_email_hint = 2131296299;
+			
+			// aapt resource value: 0x7f09002c
+			public const int hockeyapp_feedback_failed_text = 2131296300;
+			
+			// aapt resource value: 0x7f09002d
+			public const int hockeyapp_feedback_failed_title = 2131296301;
+			
+			// aapt resource value: 0x7f09002e
+			public const int hockeyapp_feedback_fetching_feedback_text = 2131296302;
+			
+			// aapt resource value: 0x7f09002f
+			public const int hockeyapp_feedback_generic_error = 2131296303;
+			
+			// aapt resource value: 0x7f090030
+			public const int hockeyapp_feedback_last_updated_text = 2131296304;
+			
+			// aapt resource value: 0x7f090031
+			public const int hockeyapp_feedback_max_attachments_allowed = 2131296305;
+			
+			// aapt resource value: 0x7f090032
+			public const int hockeyapp_feedback_message_hint = 2131296306;
+			
+			// aapt resource value: 0x7f090033
+			public const int hockeyapp_feedback_name_hint = 2131296307;
+			
+			// aapt resource value: 0x7f090034
+			public const int hockeyapp_feedback_refresh_button_text = 2131296308;
+			
+			// aapt resource value: 0x7f090035
+			public const int hockeyapp_feedback_response_button_text = 2131296309;
+			
+			// aapt resource value: 0x7f090036
+			public const int hockeyapp_feedback_select_file = 2131296310;
+			
+			// aapt resource value: 0x7f090037
+			public const int hockeyapp_feedback_select_picture = 2131296311;
+			
+			// aapt resource value: 0x7f090038
+			public const int hockeyapp_feedback_send_button_text = 2131296312;
+			
+			// aapt resource value: 0x7f090039
+			public const int hockeyapp_feedback_send_generic_error = 2131296313;
+			
+			// aapt resource value: 0x7f09003a
+			public const int hockeyapp_feedback_send_network_error = 2131296314;
+			
+			// aapt resource value: 0x7f09003b
+			public const int hockeyapp_feedback_sending_feedback_text = 2131296315;
+			
+			// aapt resource value: 0x7f09003c
+			public const int hockeyapp_feedback_subject_hint = 2131296316;
+			
+			// aapt resource value: 0x7f09003d
+			public const int hockeyapp_feedback_title = 2131296317;
+			
+			// aapt resource value: 0x7f09003e
+			public const int hockeyapp_feedback_validate_email_empty = 2131296318;
+			
+			// aapt resource value: 0x7f09003f
+			public const int hockeyapp_feedback_validate_email_error = 2131296319;
+			
+			// aapt resource value: 0x7f090040
+			public const int hockeyapp_feedback_validate_name_error = 2131296320;
+			
+			// aapt resource value: 0x7f090041
+			public const int hockeyapp_feedback_validate_subject_error = 2131296321;
+			
+			// aapt resource value: 0x7f090042
+			public const int hockeyapp_feedback_validate_text_error = 2131296322;
+			
+			// aapt resource value: 0x7f090043
+			public const int hockeyapp_login_email_hint = 2131296323;
+			
+			// aapt resource value: 0x7f090044
+			public const int hockeyapp_login_headline_text = 2131296324;
+			
+			// aapt resource value: 0x7f090045
+			public const int hockeyapp_login_headline_text_email_only = 2131296325;
+			
+			// aapt resource value: 0x7f090046
+			public const int hockeyapp_login_login_button_text = 2131296326;
+			
+			// aapt resource value: 0x7f090047
+			public const int hockeyapp_login_missing_credentials_toast = 2131296327;
+			
+			// aapt resource value: 0x7f090048
+			public const int hockeyapp_login_password_hint = 2131296328;
+			
+			// aapt resource value: 0x7f090049
+			public const int hockeyapp_paint_dialog_message = 2131296329;
+			
+			// aapt resource value: 0x7f09004a
+			public const int hockeyapp_paint_dialog_negative_button = 2131296330;
+			
+			// aapt resource value: 0x7f09004b
+			public const int hockeyapp_paint_dialog_neutral_button = 2131296331;
+			
+			// aapt resource value: 0x7f09004c
+			public const int hockeyapp_paint_dialog_positive_button = 2131296332;
+			
+			// aapt resource value: 0x7f09004d
+			public const int hockeyapp_paint_indicator_toast = 2131296333;
+			
+			// aapt resource value: 0x7f09004e
+			public const int hockeyapp_paint_menu_clear = 2131296334;
+			
+			// aapt resource value: 0x7f09004f
+			public const int hockeyapp_paint_menu_save = 2131296335;
+			
+			// aapt resource value: 0x7f090050
+			public const int hockeyapp_paint_menu_undo = 2131296336;
+			
+			// aapt resource value: 0x7f090051
+			public const int hockeyapp_permission_dialog_negative_button = 2131296337;
+			
+			// aapt resource value: 0x7f090052
+			public const int hockeyapp_permission_dialog_positive_button = 2131296338;
+			
+			// aapt resource value: 0x7f090053
+			public const int hockeyapp_permission_update_message = 2131296339;
+			
+			// aapt resource value: 0x7f090054
+			public const int hockeyapp_permission_update_title = 2131296340;
+			
+			// aapt resource value: 0x7f090055
+			public const int hockeyapp_update_button = 2131296341;
+			
+			// aapt resource value: 0x7f090056
+			public const int hockeyapp_update_dialog_message = 2131296342;
+			
+			// aapt resource value: 0x7f090057
+			public const int hockeyapp_update_dialog_negative_button = 2131296343;
+			
+			// aapt resource value: 0x7f090058
+			public const int hockeyapp_update_dialog_positive_button = 2131296344;
+			
+			// aapt resource value: 0x7f090059
+			public const int hockeyapp_update_dialog_title = 2131296345;
+			
+			// aapt resource value: 0x7f09005a
+			public const int hockeyapp_update_mandatory_toast = 2131296346;
+			
+			// aapt resource value: 0x7f09005b
+			public const int hockeyapp_update_version_details_label = 2131296347;
+			
+			// aapt resource value: 0x7f09005c
+			public const int library_name = 2131296348;
 			
 			// aapt resource value: 0x7f090013
 			public const int status_bar_notification_info_overflow = 2131296275;
@@ -2551,13 +3022,22 @@ namespace BaitNews.Droid
 			public const int CardView_Light = 2131099651;
 			
 			// aapt resource value: 0x7f060142
-			public const int MyTheme = 2131099970;
-			
-			// aapt resource value: 0x7f060144
-			public const int MyTheme_ActionBar = 2131099972;
+			public const int HockeyApp_ButtonStyle = 2131099970;
 			
 			// aapt resource value: 0x7f060143
-			public const int MyTheme_Base = 2131099971;
+			public const int HockeyApp_EditTextStyle = 2131099971;
+			
+			// aapt resource value: 0x7f060144
+			public const int HockeyApp_SingleLineInputStyle = 2131099972;
+			
+			// aapt resource value: 0x7f060145
+			public const int MyTheme = 2131099973;
+			
+			// aapt resource value: 0x7f060147
+			public const int MyTheme_ActionBar = 2131099975;
+			
+			// aapt resource value: 0x7f060146
+			public const int MyTheme_Base = 2131099974;
 			
 			// aapt resource value: 0x7f06001b
 			public const int Platform_AppCompat = 2131099675;
